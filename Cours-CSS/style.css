@@ -1,0 +1,45 @@
+/* Fil rouge : selecteur, dimensions, couleurs */
+/* texte */
+/* Background */
+/* Boxes */
+/* Positioning */
+/* Flex */
+/* Grid */
+/* Pseudo classe */
+/*Debug */
+/* responsive */
+/* import Police parisienne */
+
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
+/*@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,400;1,200&family=Parisienne&display=swap');*/
+
+@font-face {
+    font-family: font-1;
+    src: url(./asset/);
+}
+
+body {
+    font-family: "font-1", serif;
+    background: url(./asset/pexels-pixabay-36744.jpg) center/cover fixed no-repeat;
+    height: 100vh;
+}
+
+h1 {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 6rem;
+    color: rgb(255, 248, 248);
+    text-shadow: 5px 0px 0px rgba(12, 12, 12, 0.226);
+    text-align: center;
+    font-family: 'font-1', serif;  
+}
+
+main {
+    background: whitesmoke;
+    width: 30%;
+    height: 60px;
+    margin: 100px 10px 10px 10px;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 12px 5px blue;
+}
